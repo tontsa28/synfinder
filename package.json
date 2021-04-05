@@ -1,10 +1,10 @@
 {
-	"name": "xtension",
-	"displayName": "Xtension",
-	"description": "Basic VSCode extension",
-	"version": "0.0.1",
+	"name": "synfinder",
+	"displayName": "SynFinder",
+	"description": "Find synonyms for selected word directly in VSCode",
+	"version": "1.0.0",
 	"engines": {
-		"vscode": "^1.55.0"
+		"vscode": "^1.53.0"
 	},
 	"categories": [
 		"Other"
@@ -16,8 +16,8 @@
 	"contributes": {
 		"commands": [
 			{
-				"command": "xtension.helloWorld",
-				"title": "Xtension"
+				"command": "synfinder.helloWorld",
+				"title": "synfinder"
 			}
 		]
 	},
