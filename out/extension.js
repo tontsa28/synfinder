@@ -14,7 +14,7 @@ const vscode = require("vscode");
 const node_fetch_1 = require("node-fetch");
 function activate(context) {
     console.log('Congratulations, your extension "synfinder" is now active!');
-    let disposable = vscode.commands.registerCommand('synfinder.helloWorld', () => __awaiter(this, void 0, void 0, function* () {
+    let disposable = vscode.commands.registerCommand('synfinder.synfinder', () => __awaiter(this, void 0, void 0, function* () {
         // Execute extension
         const editor = vscode.window.activeTextEditor;
         if (!editor) {

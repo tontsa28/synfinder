@@ -5,7 +5,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 	console.log('Congratulations, your extension "synfinder" is now active!');
 
-	let disposable = vscode.commands.registerCommand('synfinder.helloWorld', async () => {
+	let disposable = vscode.commands.registerCommand('synfinder.synfinder', async() => {
 		
 		// Execute extension
 		const editor = vscode.window.activeTextEditor;

@@ -1,26 +1,47 @@
 {
 	"name": "synfinder",
 	"displayName": "SynFinder",
+	"publisher": "tontsa28",
 	"description": "Find synonyms for selected word directly in VSCode",
+	"icon": "logo/synfinder_logo_128x128.png",
 	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.53.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tontsa28/synfinder.git"
 	},
 	"categories": [
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:xtension.helloWorld"
+		"onCommand:synfinder.synfinder"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "synfinder.helloWorld",
+				"command": "synfinder.synfinder",
 				"title": "synfinder"
 			}
 		]
 	},
+	"keywords": [
+		"synonym",
+		"syn",
+		"synonyms",
+		"synfinder",
+		"finder",
+		"tontsa28",
+		"tontsa"
+	],
+	"author": "tontsa28",
+  	"license": "ISC",
+  	"bugs": {
+    	"url": "https://github.com/tontsa28/synfinder/issues"
+  	},
+  	"homepage": "https://github.com/tontsa28/synfinder#readme",
 	"scripts": {
 		"vscode:prepublish": "yarn run compile",
 		"compile": "tsc -p ./",
@@ -34,7 +55,7 @@
 		"@types/mocha": "^8.0.4",
 		"@types/node": "^12.11.7",
 		"@types/node-fetch": "^2.5.9",
-		"@types/vscode": "^1.55.0",
+		"@types/vscode": "^1.53.0",
 		"@typescript-eslint/eslint-plugin": "^4.14.1",
 		"@typescript-eslint/parser": "^4.14.1",
 		"eslint": "^7.19.0",
